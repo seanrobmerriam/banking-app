@@ -20,9 +20,10 @@ A concise, production-ready core banking system built in Go, featuring essential
 
 ### Installation
 
-```bash
+## In your terminal of choice:
+
 # Clone the repository (if from git)
-git clone <repository-url>
+git clone https://github.com/seanrobmerriam/banking-app
 cd banking-app
 
 # Install dependencies
@@ -35,7 +36,6 @@ export PORT="8080"           # Optional, defaults to 8080
 
 # Run the application
 go run main.go
-```
 
 The application will start on `http://localhost:8080`
 
@@ -46,7 +46,7 @@ The application will start on `http://localhost:8080`
 - Automatic migrations on startup
 - Foreign key constraints enabled
 
-## 📚 API Documentation
+##  API Documentation
 
 ### Base URL
 ```

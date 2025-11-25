@@ -2,7 +2,7 @@
 
 A concise, production-ready core banking system built in Go, featuring essential banking operations similar to Apache Fineract. This application provides RESTful APIs for customer management, account operations, transaction processing, and loan management.
 
-##� Core Banking Features
+## Core Banking Features
 
 - **Customer Management**: Complete customer onboarding and data management
 - **Account Operations**: Create and manage checking/savings accounts  

@@ -39,7 +39,7 @@ export PORT="8080"           # Optional, defaults to 8080
 go run main.go
 
 The application will start on `http://localhost:8080`
-
+```
 ### Database
 
 - Uses SQLite by default for simplicity

@@ -239,7 +239,7 @@ GET /api/v1/accounts/:id/transactions
 }
 ```
 
-#### 💳 Transaction Processing
+#### Transaction Processing
 
 ##### Process Transaction
 ```http
@@ -287,7 +287,7 @@ GET /api/v1/transactions?page=1&limit=10&account_id=1&type=deposit
 - `account_id` - Filter by account ID
 - `type` - Filter by transaction type
 
-#### 🏦 Loan Management
+#### Loan Management
 
 ##### Create Loan
 ```http
@@ -346,7 +346,7 @@ Content-Type: application/json
 DELETE /api/v1/loans/:id
 ```
 
-## 🛠️ Architecture & Design Decisions
+## Architecture & Design Decisions
 
 ### Database Design
 - **SQLite for development**: Easy to set up, no external dependencies
@@ -366,7 +366,7 @@ DELETE /api/v1/loans/:id
 - **Loan amortization**: Standard payment calculation formula
 - **Unique identifiers**: System-generated account/transaction IDs
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
